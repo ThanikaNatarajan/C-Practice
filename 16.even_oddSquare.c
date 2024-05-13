@@ -10,7 +10,7 @@ o/p : 4,16
 
 #include<stdio.h>
 #include<stdbool.h>
-#include<math.h>
+
 
 bool isEven(int num)
 {
@@ -30,14 +30,14 @@ int main()
     {
         for (int i=0 ; i<=n ; i+=2)
         {
-            printf("%d ",pow(i,2));
+            printf("%d ",i*i);
         }
     }
     else
     {
         for(int i=1 ; i<=n ; i+=2)
         {
-            printf("%d ",pow(i,2));
+            printf("%d ",i*i);
         }
     }
 }
